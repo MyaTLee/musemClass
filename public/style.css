@@ -1,0 +1,317 @@
+:root {
+    --logo: #046380;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: var(--logo);
+    /* border: 2px solid yellow; */
+}
+
+.container {
+    /* border: 2px solid black; */
+    position: relative;
+    margin-top: 10px;
+}
+
+header h1 {
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+header img {
+    width: 200px;
+    /* height: 55%; */
+    /* border: 2px solid white; */
+}
+
+header nav {
+    margin-top: 60px;
+}
+
+header ul {
+    margin-bottom: 0;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    text-transform: uppercase;
+    /* color: #000; */
+}
+
+header li:last-child {
+    margin-right: 0;
+}
+
+header li a:link {
+    text-decoration: none;
+    /* color: #000; */
+}
+
+header li a:hover {
+    color: gray;
+}
+
+/* header li a:active {
+    color: orange;
+    border: 2px solid orange;
+} */
+
+/* /header */
+
+/* #heroContainer {
+    height: 500px;
+} */
+
+#hero {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+#welcome {
+    color: #fff;
+    /* margin-bottom: 50px; */
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+
+#tickets {
+    position: absolute;
+    top: 77%;
+    left: 70%;
+}
+
+/* /hero */
+
+#exhibitions h3 {
+    padding-left: 15px;
+}
+
+#link{
+    float: right;
+    /* border: 2px solid red; */
+    text-decoration: underline;
+}
+
+/* /exhibitions */
+
+#exhibits img {
+    width: 50%;
+    height: 90%;
+}
+
+#exhibits span {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    color: #fff;
+}
+/* /exhibits */
+
+#newsletter {
+    background: var(--logo);
+    /* border: 2px solid black; */
+}
+
+.cap-title {
+    /* border: 2px solid red; */
+    text-transform: uppercase;
+    float: right;
+    color: #fff;
+}
+
+form {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    /* float: right; */
+    display: inline;
+}
+
+/* newsletter: need to come back to fix*/
+
+.nav-bottom li {
+    list-style: none;
+    display: block;
+    /* margin-right: 20px; */
+    text-transform: uppercase;
+}
+
+.contactus {
+    /* border: 2px solid red; */
+    display: block;
+}
+
+.contactus h3 {
+    float: none;
+    color: #000;
+}
+
+/* .contact span:first-child {
+    padding-left: 35px;
+} */
+/* /footer */
+
+.copyright {
+    margin-left: 30px;
+}
+
+/*! /home */
+
+#aboutus-page {
+    margin-top: 30px;
+    margin-left: 30px;
+    /* border: black 2px solid; */
+}
+
+#aboutus-page h2 {
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: var(--logo);
+}
+
+#aboutus-page li {
+    margin-bottom: 10px;
+}
+
+/*! /aboutus */
+
+
+#contact-page {
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+#contact-page h2 {
+    color: var(--logo);
+}
+
+#contact-page h2 span {
+    color: #000;
+}
+
+#contact-page p {
+    margin-bottom: 40px;
+}
+
+#contact-page .cap-title {
+    margin-bottom: 20px;
+    color: var(--logo)
+}
+
+#contact-page .contact {
+    margin-bottom: 10px;
+}
+
+/*! /contact */
+
+#educators-page {
+    /* border: 2px solid black; */
+}
+
+#educators-page h2 {
+    /* border: 2px solid red; */
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color: var(--logo);
+}
+
+#educators-page ol {
+    /* border: 2px solid yellow; */
+    margin-left: -5px;
+    margin-bottom: 30px;
+}
+
+#educators-page .caps {
+    text-transform: uppercase;
+}
+
+/*! /educators */
+
+#virtualtour-page h2 {
+    margin-left: 120px;
+    /* border: 2px solid black; */
+}
+
+#virtualtour-page h2 span {
+    color: var(--logo);
+}
+
+#virtualtour-page img {
+    margin-left: 300px;
+    /* border: 2px solid orange; */
+}
+
+#virtualtour-page h3 {
+    text-align: center;
+}
+
+#virtualtour-page nav {
+    /* border: 2px solid blue; */
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+#virtualtour-page .title {
+    text-transform: uppercase;
+}
+
+#virtualtour-page li {
+    list-style: none;
+    /* display: i; */
+    /* margin-: 20px; */
+    text-transform: uppercase;
+}
+/*! /virtualtour */
+
+#zone1-page nav li, #zone2-page nav li, #zone3-page nav li, #zone4-page nav li, #zone5-page nav li, #zone6-page nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+#zone1-page .row, #zone2-page .row, #zone3-page .row, #zone4-page .row, #zone5-page .row, #zone6-page .row {
+    /* border: 2px solid black; */
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+#zone1-page h2, #zone2-page h2, #zone3-page h2, #zone4-page h2, #zone5-page h2, #zone6-page h2 {
+    margin-left: 300px;
+    color: var(--logo);
+}
+
+#zone1-page img, #zone2-page img, #zone3-page img, #zone4-page img, #zone5-page img, #zone6-page img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#zone2-page span, #zone3-page span, #zone4-page span, #zone5-page span, #zone6-page span {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+#zone3-page h3, #zone3-page p, #zone6-page p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#zone3-page h3 {
+    padding-bottom: 10px;
+}
